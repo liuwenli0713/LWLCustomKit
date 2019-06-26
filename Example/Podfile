@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LWLCustomKit_Example' do
+  pod 'LWLCustomKit', :path => '../'
+
+  target 'LWLCustomKit_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
