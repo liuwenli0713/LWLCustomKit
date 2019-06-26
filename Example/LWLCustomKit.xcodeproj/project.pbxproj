@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		35096C4E890EF2695BBB916D /* Pods_LWLCustomKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LWLCustomKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D72F0C80524398BBB89D91B /* Pods-LWLCustomKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWLCustomKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LWLCustomKit_Tests/Pods-LWLCustomKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4EA3390A08BDF487D76C36A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4EA3390A08BDF487D76C36A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* LWLCustomKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LWLCustomKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,12 +41,12 @@
 		607FACE51AFB9204008FA782 /* LWLCustomKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LWLCustomKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6315431F39749E610F872D24 /* LWLCustomKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LWLCustomKit.podspec; path = ../LWLCustomKit.podspec; sourceTree = "<group>"; };
+		6315431F39749E610F872D24 /* LWLCustomKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LWLCustomKit.podspec; path = ../LWLCustomKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FA13E4B1BA0E4D14C661192 /* Pods-LWLCustomKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWLCustomKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LWLCustomKit_Example/Pods-LWLCustomKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BEC1958589A7812E1D27E833 /* Pods-LWLCustomKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWLCustomKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LWLCustomKit_Example/Pods-LWLCustomKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C9D3A6FB90FB83C41F2E0508 /* Pods-LWLCustomKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWLCustomKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LWLCustomKit_Tests/Pods-LWLCustomKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E0EF3744F79B0DED33092B1A /* Pods_LWLCustomKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LWLCustomKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFA0D760BB13D5FFC606E372 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FFA0D760BB13D5FFC606E372 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

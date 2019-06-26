@@ -1,0 +1,6 @@
+framework module LWLCustomKit {
+  umbrella header "LWLCustomKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
